@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>SOULBOUND (tên tạm) · Bản phác hệ thống nhân vật &amp; trang bị · xin góp ý</title>
+<meta name="description" content="Bản phác hệ thống nhân vật kiểu Lineage 2: cấp 1 → 99, 5 lần tiến hóa, rẽ nhánh ở Lv 40, trang bị hạng NG → S. Mời bạn xem và góp ý.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kien14593-lab.github.io/soulbound-gop-y/">
+<meta property="og:title" content="SOULBOUND (tên tạm) · xin góp ý bản phác">
+<meta property="og:description" content="Bản phác hệ thống nhân vật kiểu Lineage 2: cấp 1 → 99, 5 lần tiến hóa, rẽ nhánh ở Lv 40, trang bị hạng NG → S. Mời bạn xem và góp ý.">
+<meta property="og:image" content="https://kien14593-lab.github.io/soulbound-gop-y/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Coiny&family=Nunito:wght@400;700;800&display=swap">
+<style>
+:root { --ink: #3b2615; --ink3: #9a7b58; --paper: #f7e9cb; --paper2: #eed8ab; --paper3: #d9bb84; --line: #3a2211; --gold: #f4b63c; --gold-l: #ffe08a; --gold-d: #b87a16; }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; color: var(--paper); font-family: 'Nunito', system-ui, sans-serif; font-size: 15px; line-height: 1.5;
+  background: repeating-linear-gradient(90deg, rgba(255,255,255,.018) 0 2px, transparent 2px 64px), repeating-linear-gradient(0deg, rgba(0,0,0,.08) 0 3px, transparent 3px 96px), #2b1c12; }
+.wrap { max-width: 1332px; margin: 0 auto; padding: 20px 16px 90px; }
+.px { --o: 3px; --oc: var(--line); position: relative;
+  box-shadow: 0 calc(-1 * var(--o)) 0 0 var(--oc), 0 var(--o) 0 0 var(--oc), calc(-1 * var(--o)) 0 0 0 var(--oc), var(--o) 0 0 0 var(--oc), var(--in, 0 0 0 0 transparent); }
+.parch { background: radial-gradient(circle at 20% 15%, rgba(255,255,255,.45), transparent 55%), radial-gradient(circle at 85% 90%, rgba(190,140,70,.18), transparent 60%), var(--paper);
+  --in: inset 0 0 0 3px var(--paper2), inset 0 -6px 0 0 var(--paper3); color: var(--ink); }
+.kicker { margin: 0 0 12px; font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 15px; letter-spacing: .5px; text-transform: uppercase; color: #cdb48d; }
+.doc-head { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px 22px; }
+.logo { font-family: 'Coiny', cursive; font-size: 58px; line-height: .9; color: var(--gold-l); letter-spacing: 1px; padding: 4px 4px 8px;
+  text-shadow: 0 4px 0 var(--gold-d), 0 8px 0 var(--line), 4px 8px 0 var(--line), -4px 8px 0 var(--line), 4px 0 0 var(--line), -4px 0 0 var(--line), 0 -4px 0 var(--line); }
+.doc-head p { margin: 0 0 6px; color: #e9d3ad; max-width: 760px; }
+.doc-head b { color: var(--gold-l); }
+.chip { display: inline-flex; align-items: center; gap: 5px; font-family: 'Baloo 2', sans-serif; font-weight: 700; font-size: 13px; line-height: 1.1; padding: 4px 9px 5px; border-radius: 99px; background: #fff3d8; color: var(--ink); box-shadow: 0 0 0 2px var(--line); }
+h2.sec { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; margin: 46px 0 6px; font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 30px; line-height: 1.15; color: #ffe7b8; text-shadow: 0 3px 0 var(--line); scroll-margin-top: 14px; }
+h2.sec .n { display: inline-grid; place-items: center; flex: none; width: 40px; height: 40px; border-radius: 50%; background: var(--gold); color: var(--line); font-size: 24px; box-shadow: 0 0 0 3px var(--line), inset 0 -4px 0 var(--gold-d); text-shadow: none; transform: translateY(-3px); }
+h3.sub { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin: 30px 0 10px; font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 21px; line-height: 1.2; color: #ffe7b8; text-shadow: 0 2px 0 var(--line); scroll-margin-top: 14px; }
+h3.sub i { display: inline-grid; place-items: center; flex: none; width: 28px; height: 28px; font-style: normal; font-size: 16px; border-radius: 50%; background: var(--paper); color: var(--line); box-shadow: 0 0 0 3px var(--line); text-shadow: none; transform: translateY(-2px); }
+h2.sec small, h3.sub small { font-family: 'Nunito', sans-serif; font-weight: 400; font-size: 14px; color: #cdb48d; text-shadow: none; }
+.lead { margin: 0 0 14px; max-width: 1100px; color: #e2c9a1; }
+.caption { margin: 12px 0 0; color: #cdb48d; font-size: 14px; }
+.lead b, .caption b { color: #ffe1a6; }
+.note { margin-top: 16px; padding: 12px 16px; font-size: 14px; }
+.note b, .box b { color: #8a3b12; }
+.cards3, .cols3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 10px; }
+.plan { display: grid; grid-template-columns: 1.35fr 1fr; gap: 18px; margin-top: 18px; }
+.cards3 .parch, .cols3 .parch, .plan .parch { padding: 14px 18px; font-size: 14px; line-height: 1.45; }
+.cards3 h4, .cols3 h4, .plan h4, .box h4, .toc h4 { display: flex; align-items: center; gap: 8px; margin: 0 0 8px; font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 19px; line-height: 1.2; }
+.cards3 ul, .cols3 ul, .plan ul { margin: 0; padding-left: 18px; }
+.cards3 li, .cols3 li, .plan li { margin: 3px 0; }
+s { color: var(--ink3); }
+.ms-row { display: grid; grid-template-columns: 62px 1fr; gap: 6px 10px; align-items: start; }
+.tag { font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 11px; line-height: 1; padding: 3px 7px 2px; border-radius: 99px; color: #fff; }
+.ms-row .tag { justify-self: start; margin-top: 2px; font-size: 12px; padding: 4px 8px 3px; }
+.tag.elite { background: #d9861a; } .tag.npc { background: #3d7fbf; } .tag.later { background: #9a8f80; } .tag.alt { background: #7b5cff; }
+img.ic { flex: none; image-rendering: pixelated; vertical-align: middle; }
+.top { display: grid; grid-template-columns: 1fr 1.3fr .85fr; gap: 18px; align-items: start; margin-top: 24px; }
+.box { padding: 14px 18px; font-size: 14px; }
+.box p { margin: 6px 0; } .box ol { margin: 4px 0; padding-left: 20px; } .box li { margin: 5px 0; }
+.toc { padding: 14px 18px; }
+.toc a { display: flex; gap: 8px; padding: 3px 0; color: var(--ink); font-weight: 700; line-height: 1.3; text-decoration: none; }
+.toc a b { min-width: 24px; color: #8a3b12; }
+.toc a.l2 { padding-left: 18px; font-size: 13.5px; font-weight: 400; }
+.toc a:hover span { text-decoration: underline; }
+figure.shot { margin: 10px 0 0; }
+figure.shot a { display: block; }
+figure.shot img { display: block; width: var(--w); max-width: 100%; height: auto; background: #2b1c12; }
+.flabel { margin: 0 0 4px; font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 17px; color: #ffe7b8; text-shadow: 0 2px 0 var(--line); }
+.grp.two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+body.real figure.shot { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+body.real figure.shot img { max-width: none; }
+body.real .grp.two { grid-template-columns: minmax(0, 1fr); }
+.fab { position: fixed; right: 14px; bottom: 14px; z-index: 9; padding: 11px 16px 12px; border: 0; border-radius: 10px; cursor: pointer; font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 16px; line-height: 1;
+  background: var(--gold); color: var(--line); box-shadow: 0 0 0 3px var(--line), inset 0 -4px 0 var(--gold-d), 0 6px 16px rgba(0,0,0,.45); }
+footer { margin-top: 40px; padding-top: 14px; border-top: 2px solid rgba(255,255,255,.08); color: #b89c74; font-size: 13px; }
+footer a { color: #e9c89a; }
+@media (min-width: 1340px) { .fab { display: none; } }
+@media (max-width: 1000px) { .top { grid-template-columns: 1fr; } }
+@media (max-width: 900px) { .cards3, .cols3, .plan, .grp.two { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 600px) {
+  body { font-size: 14.5px; }
+  .logo { font-size: 44px; }
+  h2.sec { margin-top: 36px; font-size: 24px; } h2.sec .n { width: 34px; height: 34px; font-size: 20px; }
+  h3.sub { font-size: 19px; }
+  h2.sec small, h3.sub small { flex-basis: 100%; font-size: 13px; }
+  .ms-row { grid-template-columns: 52px 1fr; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<p class="kicker">Bản phác hệ thống nhân vật &amp; trang bị · xin góp ý</p>
+<header class="doc-head">
+    <div class="logo">SOULBOUND</div>
+    <p><b>Đề xuất hệ thống nhân vật mới · kiểu Lineage 2.</b> Bỏ việc chọn kỹ năng/nội tại rối mắt. Thay bằng <b>lên cấp 1→99</b> và <b>5 lần tiến hóa</b> qua nhiệm vụ gom nguyên liệu. Mỗi lần tiến hóa, nhân vật <b>đổi ngoại hình</b> và học thêm kỹ năng. Ở Lv 40 chọn <b>1 trong 2 nhánh</b> như L2. Kỹ năng học được thì <b>tự dùng</b>, còn build khác nhau là nhờ <b>nhánh</b> và <b>trang bị</b>.</p>
+  </header>
+<div style="display:flex;gap:10px;margin:14px 0 4px;flex-wrap:wrap">
+    <span class="chip">5 anh hùng · mang 3 vào trận · lên cấp riêng</span>
+    <span class="chip">Class cố định từ đầu</span>
+    <span class="chip">5 lần tiến hóa · rẽ nhánh ở Lv 40</span>
+    <span class="chip">Kỹ năng tự dùng · trang bị tạo build</span>
+    <span class="chip">Trang bị kiểu L2 · hạng NG → S</span>
+    <span class="chip" style="background:#ffe08a">Bản đề xuất · chưa code</span>
+  </div>
+<div class="top">
+<div class="box parch px"><h4>Đây là gì?</h4>
+<p>Bản phác (mockup) hệ thống nhân vật và trang bị của <b>SOULBOUND</b> (tên tạm), game nhập vai pixel chibi đánh tự động. <b>Chưa phải game thật</b>, số liệu chỉ là minh họa.</p>
+<p>Hình là <b>ảnh chụp</b> nên nút trong hình không bấm được. Mã như QĐ-04 hay M2a là ghi chú nội bộ, bạn bỏ qua được.</p>
+<p>Trên điện thoại: chạm vào hình để mở cỡ lớn rồi phóng to, hoặc bấm <b>Xem cỡ thật</b> ở góc dưới rồi vuốt ngang từng hình.</p></div>
+<div class="box parch px"><h4>Mình cần bạn góp ý</h4><ol>
+<li><b>Lộ trình (mục 1):</b> lên cấp 1 → 99, tới mốc thì làm nhiệm vụ gom nguyên liệu để tiến hóa. Nghe có hấp dẫn không, hay dễ chán?</li>
+<li><b>Cây tiến hóa (mục 2):</b> tên và ngoại hình từng dạng. Ở mỗi class, bạn sẽ chọn nhánh A hay B ở Lv 40, vì sao? Dạng nào nhìn chưa đẹp hoặc khó phân biệt?</li>
+<li><b>Màn tiến hóa (mục 3):</b> nhìn vào có biết đang thiếu gì và phải làm gì tiếp không?</li>
+<li><b>Trang bị (mục 4):</b> nhìn hình có đoán được hạng NG → S không? Hạng nào đẹp nhất, hạng nào nên vẽ lại? Màn Trang bị có rối không?</li>
+<li><b>Kế hoạch (mục 5):</b> có nên cho đổi nhánh sau này không? Còn thiếu hay thừa gì?</li></ol>
+<p><b>Cách góp ý:</b> trả lời ngay trong tin nhắn gửi link này, ghi số mục trước, ví dụ: “4a: hạng C với B nhìn hơi giống nhau”. Góp ý ngắn cũng rất quý!</p></div>
+<nav class="toc parch px"><h4>Mục lục</h4><a class="l1" href="#s1"><b>1</b><span>Lộ trình cấp 1 → 99</span></a><a class="l1" href="#s2"><b>2</b><span>Cây tiến hóa</span></a><a class="l1" href="#s3"><b>3</b><span>Màn Anh hùng · Tiến hóa</span></a><a class="l1" href="#s4"><b>4</b><span>Trang bị kiểu Lineage 2</span></a><a class="l2" href="#s4a"><b>4a</b><span>Hạng đồ mở theo tiến hóa</span></a><a class="l2" href="#s4b"><b>4b</b><span>Vũ khí vẽ trên người theo món đang cầm</span></a><a class="l2" href="#s4c"><b>4c</b><span>Luật trang bị</span></a><a class="l2" href="#s4d"><b>4d</b><span>Màn Trang bị</span></a><a class="l1" href="#s5"><b>5</b><span>Thay đổi so với hiện tại</span></a></nav>
+</div>
+<h2 class="sec" id="s1"><span class="n">1</span>Lộ trình cấp 1 → 99 <small>5 mốc khóa cấp · mỗi mốc là 1 nhiệm vụ tiến hóa</small></h2>
+<p class="lead">Mỗi khoảng cấp gắn với một vùng đất và một chương. Chạm mốc thì <b>khóa cấp</b> cho đến khi làm xong nhiệm vụ. Thời gian là <b>ước lượng cộng dồn</b> cho người chơi bình thường (auto-battle, có chơi lúc treo máy), sẽ chỉnh lại khi mô phỏng cân bằng.</p>
+<figure class="shot"><a href="img/tl@2x.webp" target="_blank" rel="noopener"><img src="img/tl.webp" srcset="img/tl.webp 1280w, img/tl@2x.webp 2560w" sizes="(max-width: 1312px) calc(100vw - 32px), 1280px" data-w="1280" width="1280" height="321" style="--w:1280px" loading="lazy" decoding="async" alt="Lộ trình cấp 1 đến 99"></a></figure>
+<div class="cards3">
+    <div class="parch px"><h4><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAbklEQVR4AXyMsQ2AQAwDTXagZAXm+IoBmICGlgKJBWjZAdEyAaKAEaiYggUe+fWR8gVEOiWxLQvijNPsLVFGCNDo2jqzUGMoBHh8Ic9e+aZcwG1RLWnI3QZi25KANfSW87ihrEMBoj+3uP7K/ngBAAD//2831Z8AAAAGSURBVAMAiSRKEXlR+54AAAAASUVORK5CYII=" width="32" height="32" class="ic" alt="">1 · Chạm mốc</h4><ul>
+      <li>Tới Lv 20 / 40 / 65 / 85 / 99 thì <b>khóa cấp</b>.</li>
+      <li>XP vẫn cộng vào <b>Kho dự trữ</b>, tối đa đủ 1 cấp, nên không phí thời gian farm.</li>
+      <li>Giữa hai mốc, cứ <b>5 cấp</b> thì một kỹ năng đã có <b>+1 bậc</b> (mạnh hơn, hồi nhanh hơn).</li></ul></div>
+    <div class="parch px"><h4><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAArUlEQVR4AaySvwmDUBCHL2lCINklVSBNVsgEGSQTBOdwAhewFaws3cNCrZTv4MTixPf8Ax+ej/t9p3Jn2XlNgsv1PsRgc1VAMPt/JQYySFRAsRUV9G1z+vxSebyeQdBLhqEqoNiKK6iKUjy8Ia5g6VOCBd50zoIFh78Bk7skF4NnI+gfWLN3VwFbxRbynUvMw/SS4UwFFGvU75sY814VsFVsVwxkEKmAgoMYyMAIAAD//x5AeqoAAAAGSURBVAMAyFe7IScw8p8AAAAASUVORK5CYII=" width="32" height="32" class="ic" alt="">2 · Nhiệm vụ</h4><ul>
+      <li>NPC hội class ở <b>làng Lumen</b> giao nhiệm vụ.</li>
+      <li>Cần <b>2 nguyên liệu</b> rơi trong vùng hiện tại, <b>1 vật phẩm nhiệm vụ</b> chỉ rơi từ Elite khi đang nhận nhiệm vụ, và <b>vàng</b>.</li>
+      <li>Lần V (Lv 99) là chuỗi nhiệm vụ dài, kết thúc bằng trận thử thách riêng.</li></ul></div>
+    <div class="parch px"><h4><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAWElEQVR4AWyNwQkAIAwDa8fz4wYO5wZ+XE+9QKGIQkwvjeiWzh51J9SowrvIrELpq0SIw3p+LydAdzZrXQYjwGkjwOaQwQjQF7QjwGGWSAVCIJRZhd8isgMAAP//Spjv/AAAAAZJREFUAwCOlS4RIYv5owAAAABJRU5ErkJggg==" width="32" height="32" class="ic" alt="">3 · Tiến hóa</h4><ul>
+      <li><b>Ngoại hình mới</b>, kèm hoạt cảnh tiến hóa.</li>
+      <li>Học thêm kỹ năng theo bảng của class, <b>+15% chỉ số gốc</b>.</li>
+      <li>Mở khoảng cấp tiếp theo; XP trong Kho dự trữ được <b>trả lại</b> ngay.</li>
+      <li>Dạng 4 (Lv 85) có <b>Thức tỉnh</b>: nâng cấp các kỹ năng cũ.</li></ul></div>
+  </div>
+<h2 class="sec" id="s2"><span class="n">2</span>  Cây tiến hóa <small>5 class · Dạng 0–1 chung, Lv 40 rẽ nhánh A/B</small></h2>
+<p class="lead">Màu nhãn “Dạng” dùng lại màu độ hiếm: Thường → Khá → Hiếm → Sử thi → Huyền thoại → Thần thoại. Mỗi thẻ ghi các kỹ năng <b>mới học ở dạng đó</b>. Mỗi nhánh đủ 12 kỹ năng: <b>5 dùng chung</b> (Lv 1–20) và <b>7 riêng</b> (Lv 40–99). Đường vàng từ mốc Lv 40 rẽ xuống nhánh B. Từ Dạng 3 có <b>vòng rune</b> dưới chân, từ Dạng 4 có <b>hạt sáng</b>, Dạng 5 thêm <b>hào quang</b>, màu theo nhánh.</p>
+<div class="grp stack"><figure class="shot"><a href="img/tree1@2x.webp" target="_blank" rel="noopener"><img src="img/tree1.webp" srcset="img/tree1.webp 1300w, img/tree1@2x.webp 2600w" sizes="(max-width: 1332px) calc(100vw - 32px), 1300px" data-w="1300" width="1300" height="1015" style="--w:1300px" loading="lazy" decoding="async" alt="Cây tiến hóa · Tiên Phong"></a></figure><figure class="shot"><a href="img/tree2@2x.webp" target="_blank" rel="noopener"><img src="img/tree2.webp" srcset="img/tree2.webp 1300w, img/tree2@2x.webp 2600w" sizes="(max-width: 1332px) calc(100vw - 32px), 1300px" data-w="1300" width="1300" height="1016" style="--w:1300px" loading="lazy" decoding="async" alt="Cây tiến hóa · Sát Thủ"></a></figure><figure class="shot"><a href="img/tree3@2x.webp" target="_blank" rel="noopener"><img src="img/tree3.webp" srcset="img/tree3.webp 1300w, img/tree3@2x.webp 2600w" sizes="(max-width: 1332px) calc(100vw - 32px), 1300px" data-w="1300" width="1300" height="1047" style="--w:1300px" loading="lazy" decoding="async" alt="Cây tiến hóa · Pháp Sư"></a></figure><figure class="shot"><a href="img/tree4@2x.webp" target="_blank" rel="noopener"><img src="img/tree4.webp" srcset="img/tree4.webp 1300w, img/tree4@2x.webp 2600w" sizes="(max-width: 1332px) calc(100vw - 32px), 1300px" data-w="1300" width="1300" height="1015" style="--w:1300px" loading="lazy" decoding="async" alt="Cây tiến hóa · Xạ Thủ"></a></figure><figure class="shot"><a href="img/tree5@2x.webp" target="_blank" rel="noopener"><img src="img/tree5.webp" srcset="img/tree5.webp 1300w, img/tree5@2x.webp 2600w" sizes="(max-width: 1332px) calc(100vw - 32px), 1300px" data-w="1300" width="1300" height="1042" style="--w:1300px" loading="lazy" decoding="async" alt="Cây tiến hóa · Tư Tế"></a></figure></div>
+<div class="note parch px honest"><b>Ngoại hình tiến hóa:</b> bộ Zerie có 4 dáng người cho Tiên Phong (Lính, Hiệp sĩ, Hiệp sĩ Thập tự, Kỵ sĩ giáo). Sát Thủ, Pháp Sư, Xạ Thủ, Tư Tế mỗi class chỉ có <b>1 dáng gốc</b>, nên mỗi dạng = <b>đổi màu + phụ kiện vẽ thêm</b>: khăn, mặt nạ, mũ trùm, sừng (Sát Thủ); áo choàng, quả cầu, mũ nhọn, vòng rune (Pháp Sư); lông vũ, chim ưng, trăng, vòng nguyệt quế (Xạ Thủ); dải choàng, mắt thứ ba, vòng hào quang, cánh (Tư Tế). <b>Nhánh B</b> dùng cùng dáng nhưng đổi tông màu và bộ phụ kiện riêng: Tiên Phong giáp đỏ thẫm, đen; Sát Thủ khăn và mắt đỏ, mảnh máu bay, sừng; Pháp Sư áo ngọc lam, mũ cao, có <b>tinh linh slime đi theo</b> (1 → 2 → 3 con theo nguyên tố chính, Dạng 5 đủ Lửa, Băng, Sét); Xạ Thủ áo tím, lục độc, mũ trùm, khăn che mặt, gạc hươu; Tư Tế ngọc giữa trán, áo đêm, sao bay, tia sáng. Phụ kiện <b>bám theo đầu nhân vật trong mọi khung hình</b> (đứng, đi, đánh, trúng đòn), và công cụ nhập sprite sẽ tự ghép, không lưu sprite vào git. Sau này muốn đẹp hơn có thể vẽ lại bằng Aseprite. Loại vũ khí 2 của Tiên Phong (<b>Rìu Hai Tay</b>) dùng thêm dáng <b>Lính Rìu Giáp</b> ở Dạng 0–3; Dạng 4–5 vẫn cưỡi ngựa nhưng cầm <b>kích</b>.</div>
+<div class="note parch px honest"><b>Vũ khí theo trang bị:</b> mỗi class có <b>2 loại vũ khí</b> (hình cây vẽ loại 1, đủ 2 loại xem ở mục 4b; Sát Thủ: Dao Găm hoặc Song Đao; Tiên Phong: Kiếm &amp; Khiên hoặc Rìu Hai Tay…). Mỗi thẻ vẽ vũ khí <b>hạng mở ở dạng đó</b> (nhãn góc trái trên: NG → D → C → B → A → S). Trong game, vũ khí vẽ trên người là <b>món đang cầm</b> chứ không theo dạng (xem mục 4). Công cụ dò vị trí vũ khí trong từng khung hình rồi vẽ lại, nên vũ khí mới chạy đúng mọi hoạt ảnh (đứng, đi, đánh, trúng đòn).</div>
+<h2 class="sec" id="s3"><span class="n">3</span>Màn Anh hùng · Tiến hóa <small>1280×720 · thay cho Phòng thử build · hình trên: trước, hình dưới: sau khi tiến hóa</small></h2>
+<p class="lead">Sát Thủ vừa chạm <b>Lv 20</b>. Còn thiếu 6 Nanh Sói và <b>Ấn Bóng Tối</b>, món chỉ rơi từ Tù Trưởng Goblin khi đang nhận nhiệm vụ. Đủ đồ thì nút <b>TIẾN HÓA</b> sáng lên. Bấm vào: nhân vật lóe sáng, đổi sang dáng mới, mở 3 kỹ năng mới, và XP trong Kho dự trữ chảy vào Lv 21.</p>
+<figure class="shot"><figcaption class="flabel">Trước: vừa chạm Lv 20, còn thiếu nguyên liệu</figcaption><a href="img/hero@2x.webp" target="_blank" rel="noopener"><img src="img/hero.webp" srcset="img/hero.webp 1300w, img/hero@2x.webp 2600w" sizes="(max-width: 1332px) calc(100vw - 32px), 1300px" data-w="1300" width="1300" height="741" style="--w:1300px" loading="lazy" decoding="async" alt="Màn Anh hùng trước khi tiến hóa"></a></figure>
+<figure class="shot"><figcaption class="flabel">Sau khi bấm TIẾN HÓA</figcaption><a href="img/hero_2@2x.webp" target="_blank" rel="noopener"><img src="img/hero_2.webp" srcset="img/hero_2.webp 1300w, img/hero_2@2x.webp 2600w" sizes="(max-width: 1332px) calc(100vw - 32px), 1300px" data-w="1300" width="1300" height="741" style="--w:1300px" loading="lazy" decoding="async" alt="Màn Anh hùng sau khi tiến hóa"></a></figure>
+<p class="caption">Thanh dưới cùng: <b>12 ô kỹ năng</b> xếp theo cấp mở khóa. 5 ô đầu dùng chung, ô viền nét đứt sẽ mở ở lần tiến hóa tới, số vàng là bậc kỹ năng. <b>7 ô “?”</b> còn lại hiện kỹ năng của nhánh chọn ở Lv 40. Ngoài nhánh, người chơi không cần chọn gì. Góc phải trên: <b>3 anh hùng ra trận</b> và <b>2 dự bị</b> (không nhận XP, đổi người ở màn Chọn đội hình). Tab <b>Trang bị</b> có 8 ô kiểu L2 (xem mục 4), tab <b>Sân tập</b> là hình nộm cũ, tab <b>Chiến thuật</b> là trình soạn luật AI, để dành cho ai thích chỉnh.</p>
+<h2 class="sec" id="s4"><span class="n">4</span>Trang bị kiểu Lineage 2 <small>hạng NG → S khóa theo tiến hóa · 2 loại vũ khí mỗi class · 8 ô · cường hóa +10</small></h2>
+<p class="lead">Bỏ affix ngẫu nhiên và độ hiếm. Mỗi món có <b>hạng</b> (NG, D, C, B, A, S) và <b>iLv</b>. Hạng mở dần theo tiến hóa, giống L2. Cùng tên thì cùng chỉ số, nên so đồ chỉ cần nhìn hạng, iLv và cấp cường hóa. Build khác nhau nhờ <b>loại vũ khí</b>, <b>loại giáp</b> (bộ 4 món) và <b>Relic</b>. Vũ khí đang cầm được <b>vẽ lên người</b> nhân vật.</p>
+<h3 class="sub" id="s4a"><i>a</i>Hạng đồ mở theo tiến hóa <small>mỗi hạng gắn một vùng đất · mỗi hạng một dáng riêng, không chỉ đổi màu</small></h3>
+<figure class="shot"><a href="img/grades@2x.webp" target="_blank" rel="noopener"><img src="img/grades.webp" srcset="img/grades.webp 1300w, img/grades@2x.webp 2600w" sizes="(max-width: 1332px) calc(100vw - 32px), 1300px" data-w="1300" width="1300" height="359" style="--w:1300px" loading="lazy" decoding="async" alt="Hạng đồ NG đến S"></a></figure>
+<p class="caption">Hàng icon: vũ khí loại 1 rồi loại 2 của 5 class, sau đó Giáp nặng, Giáp nhẹ, Áo vải, Nhẫn, Dây chuyền. Hạng S chỉ rơi ở <b>Vực Thẳm</b> sau Lv 99. Mỗi hạng có ngôn ngữ hình riêng: <b>NG</b> gỗ, đá, da thô · <b>D</b> thép trơn · <b>C</b> băng: mũi nhọn, bông tuyết · <b>B</b> tinh thể mọc gai · <b>A</b> hồng ngọc, móc và vuốt vàng · <b>S</b> mặt trời và cánh Kim Ô.</p>
+<h3 class="sub" id="s4b"><i>b</i>Vũ khí vẽ trên người theo món đang cầm <small>khung tĩnh phóng 3× · cùng vị trí chân</small></h3>
+<figure class="shot"><figcaption class="flabel">Nhánh A</figcaption><a href="img/tpanel@2x.webp" target="_blank" rel="noopener"><img src="img/tpanel.webp" srcset="img/tpanel.webp 1300w, img/tpanel@2x.webp 2600w" sizes="(max-width: 1332px) calc(100vw - 32px), 1300px" data-w="1300" width="1300" height="1349" style="--w:1300px" loading="lazy" decoding="async" alt="Vũ khí vẽ trên người, nhánh A"></a></figure>
+<figure class="shot"><figcaption class="flabel">Nhánh B</figcaption><a href="img/tpanel_2@2x.webp" target="_blank" rel="noopener"><img src="img/tpanel_2.webp" srcset="img/tpanel_2.webp 1300w, img/tpanel_2@2x.webp 2600w" sizes="(max-width: 1332px) calc(100vw - 32px), 1300px" data-w="1300" width="1300" height="1349" style="--w:1300px" loading="lazy" decoding="async" alt="Vũ khí vẽ trên người, nhánh B"></a></figure>
+<p class="caption">Mỗi cột là hạng mở ở dạng đó. Hai hình trên là <b>nhánh A</b> và <b>nhánh B</b>: Dạng 2–5 đổi dáng theo nhánh, vũ khí cùng loại, cùng hạng. Tiên Phong lên ngựa (Dạng 4–5) đổi sang <b>thương</b> hoặc <b>kích</b>. Hàng dưới: Ám Sát Sư (Dạng 3) cầm Dao Găm đủ 6 hạng. A và S còn khóa vì Dạng 3 mới mặc được tới hạng B.</p>
+<figure class="shot"><a href="img/swap@2x.webp" target="_blank" rel="noopener"><img src="img/swap.webp" srcset="img/swap.webp 1300w, img/swap@2x.webp 2600w" sizes="(max-width: 1332px) calc(100vw - 32px), 1300px" data-w="1300" width="1300" height="232" style="--w:1300px" loading="lazy" decoding="async" alt="Ám Sát Sư cầm Dao Găm đủ 6 hạng"></a></figure>
+<h3 class="sub" id="s4c"><i>c</i>Luật trang bị <small>giáp, trang sức, relic, cường hóa, nguồn đồ</small></h3>
+<div class="grp two"><figure class="shot"><a href="img/grules1@2x.webp" target="_blank" rel="noopener"><img src="img/grules1.webp" srcset="img/grules1.webp 651w, img/grules1@2x.webp 1302w" sizes="(max-width: 900px) calc(100vw - 32px), (max-width: 1334px) calc(50vw - 16px), 651px" data-w="651" width="651" height="451" style="--w:651px" loading="lazy" decoding="async" alt="Luật trang bị · Giáp · 3 loại, bộ 4 món"></a></figure><figure class="shot"><a href="img/grules2@2x.webp" target="_blank" rel="noopener"><img src="img/grules2.webp" srcset="img/grules2.webp 651w, img/grules2@2x.webp 1302w" sizes="(max-width: 900px) calc(100vw - 32px), (max-width: 1334px) calc(50vw - 16px), 651px" data-w="651" width="651" height="451" style="--w:651px" loading="lazy" decoding="async" alt="Luật trang bị · Trang sức &amp; Relic"></a></figure><figure class="shot"><a href="img/grules3@2x.webp" target="_blank" rel="noopener"><img src="img/grules3.webp" srcset="img/grules3.webp 651w, img/grules3@2x.webp 1302w" sizes="(max-width: 900px) calc(100vw - 32px), (max-width: 1334px) calc(50vw - 16px), 651px" data-w="651" width="651" height="418" style="--w:651px" loading="lazy" decoding="async" alt="Luật trang bị · Cường hóa +1 → +10"></a></figure><figure class="shot"><a href="img/grules4@2x.webp" target="_blank" rel="noopener"><img src="img/grules4.webp" srcset="img/grules4.webp 651w, img/grules4@2x.webp 1302w" sizes="(max-width: 900px) calc(100vw - 32px), (max-width: 1334px) calc(50vw - 16px), 651px" data-w="651" width="651" height="418" style="--w:651px" loading="lazy" decoding="async" alt="Luật trang bị · Nguồn đồ &amp; Kết tinh"></a></figure></div>
+<h3 class="sub" id="s4d"><i>d</i>Màn Trang bị <small>1280×720</small></h3>
+<figure class="shot"><a href="img/gear@2x.webp" target="_blank" rel="noopener"><img src="img/gear.webp" srcset="img/gear.webp 1300w, img/gear@2x.webp 2600w" sizes="(max-width: 1332px) calc(100vw - 32px), 1300px" data-w="1300" width="1300" height="741" style="--w:1300px" loading="lazy" decoding="async" alt="Màn Trang bị"></a></figure>
+<p class="caption">Bản phác gốc bấm thử được: rê chuột vào món trong túi để so chỉ số và <b>lực chiến</b>, bấm đúp để mặc. Có sẵn vài tình huống: mặc <b>Giày Da Tử Tinh</b> cho đủ bộ Da 4/4; <b>Cường hóa</b> Dao Găm +7 lên +8 (33%, thất bại thì về +3); <b>Kết tinh</b> Dao Găm Thép rồi đổi Tinh Thể lấy cuộn; Dao Găm Huyết Ngọc còn khóa tới Lv 85. Số liệu là minh họa.</p>
+<h2 class="sec" id="s5"><span class="n">5</span>Thay đổi so với hiện tại <small>những gì giữ, đổi, thêm · kế hoạch mốc</small></h2>
+<div class="cols3">
+    <div class="parch px"><h4><span class="tag" style="background:#2f8f3a">GIỮ</span>Giữ nguyên</h4><ul>
+      <li>Lõi combat M1–M1.6: Chill → Đóng băng → Giòn → Vỡ Băng, giảm dần khống chế, threat, nhật ký trận.</li>
+      <li>3 class cũ và cơ chế riêng: Khiên của Tiên Phong, Dấu + Energy của Sát Thủ, Mana + Tích Tụ của Pháp Sư (QĐ-106).</li>
+      <li>iLv (QĐ-107), nay đi kèm hạng NG → S.</li>
+      <li>Art Zerie, theme gỗ/giấy da, số bay.</li>
+      <li>Preset AI trở thành <b>AI mặc định</b> của từng class.</li></ul></div>
+    <div class="parch px"><h4><span class="tag elite">ĐỔI</span>Thay đổi</h4><ul>
+      <li><s>Chọn 4/7 kỹ năng, 3/8 nội tại</s> → học theo cấp và <b>tự dùng hết</b> (thay QĐ-04, 85, 86).</li>
+      <li><s>Cấp tối đa 20</s> → <b>99</b> (thay QĐ-75).</li>
+      <li>Phòng thử build → màn <b>Anh hùng</b>. Trình soạn luật AI chuyển thành tab nâng cao.</li>
+      <li>Các nội tại đánh đổi (Pháo Thủy Tinh, Khế Ước Máu…) → <b>Relic</b>: 1 ô riêng, 1 hiệu ứng mạnh kèm 1 cái giá.</li>
+      <li><s>Trang bị 6 ô</s> → <b>8 ô</b> kiểu L2: vũ khí, mũ, giáp, găng, giày, nhẫn, dây chuyền, relic (thay QĐ-76).</li>
+      <li><s>Affix ngẫu nhiên, set, legendary</s> → <b>chỉ số cố định</b> theo hạng + iLv, cường hóa, bộ giáp 4 món (thay QĐ-77, 84).</li>
+      <li>Hạng đồ <b>khóa theo tiến hóa</b>: D ở Lv 20, C ở 40, B ở 65, A ở 85, S ở 99 (cập nhật QĐ-107).</li>
+      <li>Song Đao không còn là dạng tiến hóa của Sát Thủ mà là <b>vũ khí loại 2</b>, cầm được từ Lv 1.</li>
+      <li>Chuyển sang <b>nhánh B</b>: Giáp Gai, Máu Chiến (Tiên Phong); Mưa Tên, Tên Độc, Tên Nổ (Xạ Thủ); Khiên Thánh, Linh Cảm (Tư Tế). Nhánh A nhận kỹ năng mới thay chỗ: Hào Quang Hộ Vệ, Ánh Sáng Hộ Thể; Ngắm Yếu Điểm, Mắt Ưng, Tên Xuyên Giáp, Liên Xạ; Vòng Hồi Phục, Phép Màu. <s>Tên Sấm</s> bỏ.</li>
+      <li>Đổi tên cho khỏi trùng với nhánh B: Sát Thủ Dạng 4A → <b>Hàn Ảnh</b>, Tư Tế Dạng 2A → <b>Giám Mục</b>.</li></ul></div>
+    <div class="parch px"><h4><span class="tag npc">MỚI</span>Thêm mới</h4><ul>
+      <li>XP, cấp 1–99, Kho dự trữ khi khóa mốc.</li>
+      <li>5 nhiệm vụ tiến hóa mỗi class, có vật phẩm chỉ rơi khi đang nhận nhiệm vụ.</li>
+      <li><b>Rẽ nhánh ở Lv 40</b>: mỗi class 2 nhánh, mỗi nhánh 4 dạng (2–5), 7 kỹ năng, Thức tỉnh, màu hiệu ứng và hào quang riêng. Nhánh A: Hộ Vệ, Băng Ảnh, Nguyên Tố, Bắn Tỉa, Chữa Lành. Nhánh B: Huyết Chiến, Huyết Vũ, Triệu Hồi, Độc Tiễn, Tiên Tri.</li>
+      <li><b>2 class mới</b> theo GDD: <b>Xạ Thủ</b> (§14, Khí Thế) và <b>Tư Tế</b> (§16, Đức Tin, hồi máu cho đội).</li>
+      <li>6 dạng ngoại hình mỗi class: đổi màu + <b>phụ kiện ghép theo từng khung hình</b>.</li>
+      <li>Sở hữu 5 anh hùng, <b>mang 3 vào trận</b>, chỉ người ra trận nhận XP (người vào sau từ Lv 1 được <b>×2 XP</b> tới khi bằng cấp đội); Thức tỉnh ở Lv 85; nội tại huyền thoại ở Lv 99.</li>
+      <li>Pháp Sư chọn <b>nguyên tố chính</b> ở Lv 20: Lửa, Băng hoặc Sét.</li>
+      <li><b>2 loại vũ khí</b> mỗi class và <b>3 loại giáp</b> (nặng, nhẹ, vải); đủ 4 món cùng loại, cùng hạng thì có thưởng bộ.</li>
+      <li>Vũ khí đang cầm <b>vẽ lên người</b> nhân vật, phát sáng ở +4 / +7 / +10.</li>
+      <li><b>Cường hóa</b> +1 → +10 bằng cuộn; <b>Kết tinh</b> đồ thừa thành Tinh Thể để đổi cuộn.</li></ul></div>
+  </div>
+<div class="plan">
+    <div class="parch px"><h4>Kế hoạch mốc (đề xuất)</h4>
+      <div class="ms-row">
+        <span class="tag alt">M2a</span><div>Cấp/XP và chỉ số theo cấp, 5 anh hùng (mang 3), bảng mở kỹ năng + AI tự dùng, <b>nhiệm vụ Lv 20 và 40</b>, <b>chọn nhánh ở Lv 40</b>, dạng 0–1 cùng cả 2A và 2B, màn Anh hùng, công cụ ghép phụ kiện sprite, chuyển đổi file lưu cũ. 3 class cũ. <b>8 ô trang bị</b>, đồ hạng NG–C, 2 loại vũ khí, vũ khí vẽ theo món.</div>
+        <span class="tag alt">M2b</span><div><b>Xạ Thủ</b> và <b>Tư Tế</b> tới Lv 40 (cả 2 nhánh): Khí Thế, Đức Tin, AI hồi máu/buff chọn đồng đội.</div>
+                <span class="tag alt">M2c</span><div>Lv 40–99, dạng 3–5 của cả 2 nhánh (có tinh linh Pháp Sư B), Thức tỉnh, nội tại huyền thoại, đồ hạng B–S, mô phỏng cân bằng theo cấp.</div>
+        <span class="tag later">M2d</span><div>Bộ giáp, cường hóa, trang sức boss, Relic, Kết tinh, bảng rơi đồ theo vùng.</div>
+        <span class="tag later">M3</span><div>Bản đồ theo vùng, Rừng Thì Thầm 10 màn + boss, NPC làng Lumen.</div>
+      </div></div>
+    <div class="parch px"><h4>Câu hỏi còn mở</h4><ul>
+      <li><s>Nhịp chơi ≈ 2 / 10 / 35 / 80 / 150 giờ</s> → <b>đã chốt kiểu L2: ≈ 3 / 20 / 80 / 200 / 500 giờ</b>.</li>
+      <li><b>Đã chốt:</b> có <b>rẽ nhánh ở Lv 40</b> như L2, mỗi class chọn 1 trong 2 nhánh. Đã phác đủ 5 class (mục 2), chờ duyệt tên, kỹ năng, ngoại hình.</li>
+      <li>Có cho <b>đổi nhánh</b> sau này không? Đề xuất: được, ở làng Lumen, tốn vàng; giữ cấp và đồ.</li>
+      <li><b>Đã chốt:</b> hạng NG → S kiểu L2 khóa theo tiến hóa, giữ iLv (QĐ-107), 8 ô, cường hóa +10.</li>
+      <li><s>Dự bị nhận 30% XP</s> → <b>đã chốt: dự bị không nhận XP</b>.</li>
+      <li><b>Đã chốt:</b> đầu game có Tiên Phong, Sát Thủ, Pháp Sư; chiêu mộ Xạ Thủ và Tư Tế ở chương 1.</li>
+      <li>Số liệu trang bị (chỉ số, tỉ lệ cường hóa, thưởng bộ) đang là <b>minh họa</b>, sẽ chỉnh theo mô phỏng cân bằng.</li>
+      <li><s>Cường hóa thất bại về +0</s> → <b>đã chốt: về +3</b> (mốc an toàn), không mất đồ.</li></ul></div>
+  </div>
+<footer>Nhân vật và hiệu ứng trong hình: <a href="https://zerie.itch.io/tiny-rpg-character-asset-pack" rel="noopener">Tiny RPG Character Asset Pack</a> của Zerie, dùng theo giấy phép của tác giả. Trang này chỉ có ảnh chụp màn hình bản phác, không kèm file asset; vui lòng không cắt hình nhân vật để dùng lại. Font: Baloo 2, Nunito, Coiny (SIL Open Font License). Cập nhật: 28/09/2026.</footer>
+</div>
+<button id="fab" class="fab" type="button">Xem cỡ thật</button>
+<script>
+(function () {
+  var b = document.getElementById('fab'), imgs = [].slice.call(document.querySelectorAll('figure.shot img'));
+  imgs.forEach(function (i) { i.dataset.sz = i.getAttribute('sizes'); });
+  b.onclick = function () {
+    // Giữ nguyên chỗ đang đọc khi hình đổi cỡ.
+    var els = [].slice.call(document.querySelectorAll('.wrap > :not(.grp), .grp > *'));
+    var a = els.filter(function (e) { return e.getBoundingClientRect().bottom > 0; })[0], t0 = a ? a.getBoundingClientRect().top : 0;
+    var on = document.body.classList.toggle('real');
+    b.textContent = on ? 'Vừa màn hình' : 'Xem cỡ thật';
+    imgs.forEach(function (i) { i.setAttribute('sizes', on ? i.dataset.w + 'px' : i.dataset.sz); });
+    if (a) window.scrollBy(0, a.getBoundingClientRect().top - t0);
+  };
+})();
+</script>
+</body>
+</html>
